@@ -10,6 +10,11 @@ nav {
     background-color: #e00745;
 }
 
+ul {
+    text-decoration: none;
+    list-style: none;
+}
+
 .nav-item a {
     color: #e5e1cf;
     font-weight: 800;
@@ -70,7 +75,6 @@ h1 {
 .when {
     z-index: 1;
     color:#151321;
-    margin-top: -10em;
 }
 
 .hr-brush {
@@ -123,4 +127,8 @@ button {
 
 .btn-submit:hover {
     background: #F0C200;
+}
+
+footer {
+    background-color: #513ffc;
 }
