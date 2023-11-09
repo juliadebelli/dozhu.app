@@ -6,10 +6,6 @@
     padding: 0;
 }
 
-nav {
-    background-color: #e00745;
-}
-
 ul {
     text-decoration: none;
     list-style: none;
@@ -72,7 +68,7 @@ h1 {
     background-color: #e5e1cf;
 }
 
-.when {
+.work {
     z-index: 1;
     color:#151321;
 }
@@ -94,6 +90,10 @@ h1 {
     padding: 10px;
     border: none;
     border-radius: 5px;
+}
+
+.round-corners {
+    border-radius: 2em;
 }
 
 button {
@@ -131,4 +131,18 @@ button {
 
 footer {
     background-color: #513ffc;
+}
+
+@media screen and (max-width: 576px) {
+    /* Your CSS styles for small screens go here */
+
+}
+
+.navbar-toggler-icon {
+    position: relative;
+    fill: #e5e1cf;
+}
+
+.navbar {
+    background-color: #e00745;
 }
