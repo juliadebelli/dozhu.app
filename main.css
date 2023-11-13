@@ -6,9 +6,21 @@
     padding: 0;
 }
 
-ul {
-    text-decoration: none;
+ul, ol {
     list-style: none;
+}
+
+.no-decoration {
+    text-decoration: none;
+}
+
+.navbar-toggler-icon {
+    position: relative;
+    fill: #e5e1cf;
+}
+
+.navbar {
+    background-color: #e00745;
 }
 
 .nav-item a {
@@ -71,6 +83,18 @@ h1 {
 .work {
     z-index: 1;
     color:#151321;
+}
+
+.when {
+    color: #151321;
+}
+
+.ongoing {
+    font-weight: 800;
+}
+
+.waiting {
+    opacity: 0.5;
 }
 
 .hr-brush {
@@ -136,13 +160,4 @@ footer {
 @media screen and (max-width: 576px) {
     /* Your CSS styles for small screens go here */
 
-}
-
-.navbar-toggler-icon {
-    position: relative;
-    fill: #e5e1cf;
-}
-
-.navbar {
-    background-color: #e00745;
 }
